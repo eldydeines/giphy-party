@@ -3,14 +3,34 @@
 
 <head>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <title>Giphy Party!</title>
 </head>
 
 <body>
+  <div class="container">
+    <div class="row justify-content-center">
+      <h1>GIPHY PARTY</h1>
+    </div>
+    <div class="row justify-content-center">
+      <form id="giph-form">
+        <input type="text" id="giph-input" placeholder="Enter a search term">
+        <button type="submit" id="giph-button">Search Giphy</button>
+      </form>
+      <button id="remove">Remove Giphs</button>
+    </div>
+    <div id="giphs-div" class="row justify-content-left">
 
-<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
-<script src="https://unpkg.com/axios/dist/axios.js"></script>
-<script src="app.js"></script>
+    </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="app.js"></script>
+
+
 </body>
 
 </html>
